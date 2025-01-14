@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularz</title>
+    <link rel="stylesheet" href="siedem-1.css">
+</head>
+<body>
+    <h2 class="for">Formularz</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="feedback">Twoja opinia:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                <br>
+                <button type="submit">Wyślij</button>
+                <button type="reset">Wyczyść</button>
+            </form>
+</body>
+</html>
